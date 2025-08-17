@@ -1,5 +1,11 @@
-const string = 'faruk';
+// const name = 'faruk';
 function reverseString (string) {
-    console.log(string)
+    let reverse = '';
+   for(let i = string.length -1; i>=0; i--){
+    // console.log(i)
+    reverse += string[i];
+    // console.log(reverse)
+   }
+   return reverse;
 }
-reverseString(string)
+// console.log(reverseString(name))
